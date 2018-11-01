@@ -1,7 +1,4 @@
-body {
 
-
-}
 
 h1 {
     color: navy;
@@ -11,14 +8,15 @@ h1 {
 }
 
 h2 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Fredoka One', cursive;
   font-size: 100px;
   text-align: center;
+  color: white;
 
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif
+  font-family: 'Fredoka One', cursive;
   font-size: 24pt;
   text-align: left;
 
@@ -31,21 +29,27 @@ html,body {
   margin: 0;
   padding 0;
 }
+
 body {
-font-family: 'Montserrat', sans-serif !important;
+text-transform: uppercase;
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 2px;
+font-size: 8pt;
+
+}
+
+body.padding-top{
+  padding-top: 60px;
 }
 
 .navbar {
   background-color: #FDF300;
-  text-align: right;
+  text-align: center;
   font-family: 'Oswald', sans-serif;
   color: white;
   text-transform: uppercase;
   font-size: 30pt;
 
-}
-.container {
-    position: fixed;
 }
 
 .text-block {
@@ -135,3 +139,79 @@ position: fixed;
    cursor: not-allowed;
 
  }
+
+ #wrapper {
+     width: 900px;
+     height: 650px;
+     margin-top: 50px;
+     overflow: hidden;
+ }
+ #first {
+     width: 500px;
+     float:left; /* add this */
+ }
+ #second {
+     overflow: hidden;
+}
+
+#wrapperm {
+    width: 1500px;
+    height: 650px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+#first {
+    width: 500px;
+    float:top;
+}
+#second {
+    overflow: hidden;
+}
+
+/* Photo Grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.disabled {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 4px;
+    opacity: 0.6;
+    cursor: not-allowed;
+    font-family: 'Fredoka One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
