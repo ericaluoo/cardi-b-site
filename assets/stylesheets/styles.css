@@ -126,3 +126,12 @@ position: fixed;
    text-align: right;
 
  }
+
+ .box{
+   height: 250px;
+   width 250px;
+ }
+ .box:hover{
+   cursor: not-allowed;
+
+ }
