@@ -12,7 +12,8 @@
 
 </head>
 <body class="padding-top">
-  <!-- TOP NAV -->
+
+<!-- TOP NAV -->
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -36,80 +37,50 @@
     </div>
   </nav>
   <div align="center">
-    <!-- BANNER -->
+
+<!-- BANNER -->
     <div class="image">
       <img src="./assets/images/merch.gif" style="width:75%;">
     </div>
   </br>
 
 <!-- SHOPPING ITEMS -->
-
-<div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('sweatshirt')"> Sweatshirt</button>
-  <button class="btn" onclick="filterSelection('tank')"> Tank</button>
-  <button class="btn" onclick="filterSelection('tshirt')"> T-Shirts</button>
-</div>
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('sweatshirt')"> Sweatshirt</button>
+    <button class="btn" onclick="filterSelection('tank')"> Tank</button>
+    <button class="btn" onclick="filterSelection('t-shirt')"> Tshirt</button>
+  </div>
 
   <div class="container">
-    <div class="row">
-      <div class="filterDiv sweatshirt">
-        <div class="col-xs-12 col-sm-6">
-          <img class="img-responsive" src="./assets/images/filter/sweatshirt-1.png"/>
-          <button class="disabled">add to cart</button>
-        </div>
-        <div class="filterDiv sweatshirt">
-        <div class="col-xs-12 col-sm-6">
-          <img class="img-responsive" src="./assets/images/filter/sweatshirt-2.png"/>
-          <button class="disabled">add to cart</button>
-        </div>
-        <div class="filterDiv sweatshirt">
-        <div class="col-xs-12 col-sm-6">
-          <img class="img-responsive" src="./assets/images/filter/sweatshirt-3.png"/>
-          <button class="disabled">add to cart</button>
-        </div>
-      </div>
-      <div class="filterDiv tank">
-      <div class="col-xs-12 col-sm-6">
-        <img class="img-responsive" src="./assets/images/filter/tank-1.png"/>
-        <button class="disabled">add to cart</button>
-      </div>
-      <div class="filterDiv tshirt">
-      <div class="col-xs-12 col-sm-6">
-        <img class="img-responsive" src="./assets/images/filter/tshirt-1.png"/>
-        <button class="disabled">add to cart</button>
-      </div>
-      <div class="filterDiv tshirt">
-      <div class="col-xs-12 col-sm-6">
-        <img class="img-responsive" src="./assets/images/filter/tshirt-3.png"/>
-        <button class="disabled">add to cart</button>
-      </div>
-      <div class="filterDiv tshirt">
-      <div class="col-xs-12 col-sm-6">
-        <img class="img-responsive" src="./assets/images/filter/tshirt-4.png"/>
-        <button class="disabled">add to cart</button>
-      </div>
-      <div class="filterDiv tshirt">
-      <div class="col-xs-12 col-sm-6">
-        <img class="img-responsive" src="./assets/images/filter/tshirt-5.jpg"/>
-        <button class="disabled">add to cart</button>
-      </div>
+    <div class="filterDiv sweatshirt">
+      <img class="img-responsive" src="./assets/images/filter/sweatshirt-1.png"/>
+      <button class="disabled">add to cart</button>
+      <img class="img-responsive" src="./assets/images/filter/sweatshirt-2.png"/>
+      <button class="disabled">add to cart</button>
+      <img class="img-responsive" src="./assets/images/filter/sweatshirt-3.png"/>
+      <button class="disabled">add to cart</button>
+
     </div>
+    <div class="filterDiv tank">
+      <img class="img-responsive" src="./assets/images/filter/tank-1.png"/>
+      <button class="disabled">add to cart</button>
+
+    </div>
+    <div class="filterDiv t-shirt">
+      <img class="img-responsive" src="./assets/images/filter/t-shirt-1.png"/>
+      <button class="disabled">add to cart</button>
+      <img class="img-responsive" src="./assets/images/filter/t-shirt-2.png"/>
+      <button class="disabled">add to cart</button>
+      <img class="img-responsive" src="./assets/images/filter/t-shirt-3.png"/>
+      <button class="disabled">add to cart</button>
+      <img class="img-responsive" src="./assets/images/filter/t-shirt-4.jpg"/>
+      <button class="disabled">add to cart</button>
+
 </div>
 
-<!-- FOOTER -->
+  </div>
 
-<div class="footer">
-  <a href="https://www.facebook.com/IAmCardiB" class="fa fa-facebook"></a>
-  <a href="https://twitter.com/IAmCardiB" class="fa fa-twitter"></a>
-  <a href="https://www.youtube.com/channel/UCxMAbVFmxKUVGAll0WVGpFw" class="fa fa-youtube"></a>
-  <a href="https://www.instagram.com/IAmCardiB/" class="fa fa-instagram"></a>
-  <a href="#" class="fa fa-snapchat-ghost"></a>
-  <p><br> © 2018 COPYRIGHT ATLANTIC RECORDS     |     PRIVACY POLICY    |    TERMS OF USE    |     AD CHOICES    |    PHOTOS BY HASSAN HAJJAJ     |     COOKIE POLICY</p>
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="./assets/javascripts/bootstrap.min.js"></script>
 <script>
 filterSelection("all")
 function filterSelection(c) {
@@ -161,3 +132,17 @@ for (var i = 0; i < btns.length; i++) {
 </script>
 </body>
 </html>
+
+<!-- FOOTER -->
+
+<div class="footer">
+  <a href="https://www.facebook.com/IAmCardiB" class="fa fa-facebook"></a>
+  <a href="https://twitter.com/IAmCardiB" class="fa fa-twitter"></a>
+  <a href="https://www.youtube.com/channel/UCxMAbVFmxKUVGAll0WVGpFw" class="fa fa-youtube"></a>
+  <a href="https://www.instagram.com/IAmCardiB/" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-snapchat-ghost"></a>
+  <p><br> © 2018 COPYRIGHT ATLANTIC RECORDS     |     PRIVACY POLICY    |    TERMS OF USE    |     AD CHOICES    |    PHOTOS BY HASSAN HAJJAJ     |     COOKIE POLICY</p>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="./assets/javascripts/bootstrap.min.js"></script>
